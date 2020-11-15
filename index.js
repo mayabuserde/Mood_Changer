@@ -12,7 +12,8 @@ app.use(express.static(__dirname + '/public'));
 
 //root route
 app.get('/', (req, res) => {
-    res.render("index.ejs");
+    res.render("home.ejs");
+})
 })
 
 //Server starts here with a port of 3000
