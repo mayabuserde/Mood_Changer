@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DeaconMofoJones/Mood_Changer.git"
+    "url": "git+https://github.com/allWebDevChat/Mood_Changer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DeaconMofoJones/Mood_Changer/issues"
+    "url": "https://github.com/allWebDevChat/Mood_Changer/issues"
   },
-  "homepage": "https://github.com/DeaconMofoJones/Mood_Changer#readme",
+  "homepage": "https://github.com/allWebDevChat/Mood_Changer#readme",
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
