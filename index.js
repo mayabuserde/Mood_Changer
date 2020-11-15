@@ -25,5 +25,26 @@ app.get('/about', (req, res) => {
     res.render("about.ejs");
 })
 
+app.get('/mood/:userMood', (req, res) => {
+    var mood = req.params.userMood;
+    switch (mood) {
+        case "happy":
+            res.render('happy.ejs');
+            break;
+        case "soso":
+            res.render('soso.ejs');
+            break;
+        case "sad":
+            res.render('sad.ejs');
+            break;
+        case "angry":
+            res.render('angry.ejs');
+            break;
+        default:
+            console.log("error: mood not recognized (" + userMood + ")");
+            res.render('home.ejs')
+    }
+})
+
 //Server starts here with a port of 3000
 app.listen(3000);
