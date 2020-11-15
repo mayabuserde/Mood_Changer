@@ -14,6 +14,15 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
     res.render("home.ejs");
 })
+
+//contact route
+app.get('/contact', (req, res) => {
+    res.render("contact.ejs");
+})
+
+//about route
+app.get('/about', (req, res) => {
+    res.render("about.ejs");
 })
 
 //Server starts here with a port of 3000
